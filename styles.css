@@ -1,40 +1,40 @@
-body {
-    margin: 0;
+body{
     font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    background-color: #333;
-    padding: 15px 0;
-    color: white;
+header{
+    background-color: aliceblue;
+    color: crimson;
+    padding: 30px 20px;
     display: flex;
-    justify-content: center; /* Center-align the content horizontally */
+    justify-content: space-between;
     align-items: center;
 }
 
-.logo img {
-    height: 50px;
+#logo{
+    cursor: pointer;
+    margin-left: 160px;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+nav {
     display: flex;
+    gap: 30px;
+    margin-right: 290px;
 }
 
-nav ul li {
-    margin-right: 20px;
-}
-
-nav a {
+nav a{
     text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s ease-in-out;
+    color: black;
+    transition: color 0.3s ,font-size 0.3s;
 }
 
-nav a:hover {
-    color: #ff9900;
+nav a:hover{
+    color: crimson;
+    font-size: 1.1.rem;
+}
+
+#search-icon {
+    cursor: pointer;
 }
